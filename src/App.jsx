@@ -1,13 +1,17 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Home from "./pages/Home";
-import { Home as HomeIcon } from "lucide-react";
+import Home from './pages/Home'
+import About from './About'
+import Services from './Services'
+import Gallery from './Gallery'
 
 const App = () => {
   return (
     <div>
-    <Home/>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   )
 }
