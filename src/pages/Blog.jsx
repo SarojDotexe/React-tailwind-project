@@ -82,7 +82,6 @@ const GALLERY_IMGS = [
   "https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=200&q=70",
 ];
 
-// Mini calendar
 const CALENDAR_DAYS = [
   [null, null, null, null, null, null, 1],
   [2, 3, 4, 5, 6, 7, 8],
@@ -282,15 +281,18 @@ const Blog = () => {
                 <li key={i}>
                   <button
                     onClick={() => setActiveCategory(activeCategory === cat.name ? null : cat.name)}
-                    className="w-full flex justify-between items-center py-2 text-left transition-colors duration-200"
+                    className="w-full flex justify-between items-center text-left transition-colors duration-200"
                     style={{
-                      borderBottom: `1px dashed ${s.border}`,
                       color: activeCategory === cat.name ? s.brown : s.muted,
                       fontWeight: activeCategory === cat.name ? "bold" : "normal",
-                      backgroundColor: "transparent", border: "none",
+                      backgroundColor: "transparent",
+                      border: "none",
                       borderBottom: `1px dashed ${s.border}`,
-                      cursor: "pointer", fontFamily: "inherit", fontSize: "0.92rem",
+                      cursor: "pointer",
+                      fontFamily: "inherit",
+                      fontSize: "0.92rem",
                       padding: "0.6rem 0",
+                      width: "100%",
                     }}
                   >
                     <span>▸ {cat.name}</span>
