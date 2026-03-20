@@ -6,13 +6,16 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+import Gallery from "./Gallery";
+import Services from "./Services";
 
 // Placeholder pages for routes not yet built
-const Services  = () => <div className="pt-32 text-center text-2xl">Services — Coming Soon</div>;
-const Gallery   = () => <div className="pt-32 text-center text-2xl">Gallery — Coming Soon</div>;
+// const Services  = () => <div className="pt-32 text-center text-2xl">Services — Coming Soon</div>;
+// const Gallery   = () => <div className="pt-32 text-center text-2xl">Gallery — Coming Soon</div>;
 const Features  = () => <div className="pt-32 text-center text-2xl">Features — Coming Soon</div>;
 const Portfolio = () => <div className="pt-32 text-center text-2xl">Portfolio — Coming Soon</div>;
-const Blog      = () => <div className="pt-32 text-center text-2xl">Blog — Coming Soon</div>;
+// const Blog      = () => <div className="pt-32 text-center text-2xl">Blog — Coming Soon</div>;
 
 const App = () => {
   return (
