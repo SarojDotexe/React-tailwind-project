@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import profileImg from "../assets/picofme (4).png";
 
 const MISSIONS = [
   {
@@ -20,11 +21,11 @@ const MISSIONS = [
 
 const TEAM_MEMBERS = [
   {
-    name: "Stefhen Richards",
+    name: "Sagnik Saha",
     role: "Head Pastry Chef",
     email: "info@domain.com",
     phone: "1-800-23-456-7890",
-    img: "https://i.pravatar.cc/150?img=11",
+    img: profileImg,
   },
   {
     name: "Marie Fontaine",
