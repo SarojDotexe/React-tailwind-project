@@ -365,7 +365,7 @@ export default function Features() {
     <div className="font-sans">
       <MenuSection />
       <FlavourSection />
-      <StatsSection />
+      {/* <StatsSection /> */}
     </div>
   );
 }
