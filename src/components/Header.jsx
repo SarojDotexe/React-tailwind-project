@@ -12,7 +12,7 @@ const Header = () => {
     "absolute left-0 -bottom-1 w-0 h-[2px] bg-pink-400 transition-all duration-300 group-hover:w-full";
 
   return (
-    <header className="w-full absolute top-0 left-0 z-50">
+    <header className="w-full sticky top-0 left-0 z-50">
       <div className="flex items-center justify-between px-10 py-4 bg-black/80 backdrop-blur-md text-white">
 
         {/* Logo */}

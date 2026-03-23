@@ -248,7 +248,7 @@ const Contact = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Sexy Saroj"
                       required
                       style={{
                         padding: "0.75rem 1rem", border: "1px solid #d4b896",
